@@ -271,7 +271,6 @@ p.company {
     border-radius: 5px;
 }
 
-/* Responsive styles */
 @media (max-width: 600px) {
     .main-content {
         display: block;
