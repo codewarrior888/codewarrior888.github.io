@@ -202,16 +202,23 @@ li {
 
 .job h3, .edu h3 {
     font-size: 21px;
-    margin: 0;
-    color: #50545a;
     font-weight: 700;
+    color: #50545a;
+    margin: 0;
+}
+
+.job h5, .edu h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin: 0;
 }
 
 .job p, .edu p {
-    font-size: 17px;
-    margin: 5px 0;
+    font-size: 12px;
+    font-weight: 500;
     color: #555;
-    font-weight: 400;
+    margin: 10px 0;
 }
 
 .edu em {
@@ -220,14 +227,14 @@ li {
     color: #555;
     font-weight: 400;
 }
-.calender {
+.calendar {
     align-items: center;
     display: flex;
 }
 
 p.company {
-    color: #6996DB;
     font-weight: 700;
+    color: #6996DB;
 }
 
 .tag {
@@ -276,6 +283,15 @@ p.company {
     background-color: #f1f1f1;
     margin-top: 10px;
     border-radius: 5px;
+}
+
+.noscript-message {
+    color: rgb(255, 132, 132);
+    font-weight: light;
+    text-align: center;
+    font-size: 14px;
+    border-top: rgb(255, 132, 132) 0.5px solid;
+    background-color: #ffffff;
 }
 
 @media (max-width: 600px) {
