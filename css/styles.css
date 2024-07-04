@@ -213,6 +213,12 @@ li {
     font-weight: 400;
 }
 
+.edu em {
+    font-size: 15px;
+    margin: 5px 0;
+    color: #555;
+    font-weight: 400;
+}
 .calender {
     align-items: center;
     display: flex;
